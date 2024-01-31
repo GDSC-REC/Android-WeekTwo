@@ -33,10 +33,8 @@ fun HelloWorldApp() {
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
-    ){
-        Text(
-            text = "Hello, World!"
-        )
+    ) {
+        Text( text = "Hello, World!" )
     }
 }
 
